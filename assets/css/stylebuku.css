@@ -1,39 +1,55 @@
-#wrapper header nav ul{
+body{
+    background-color:#174c7c;
+    background-image: url('p1.jpg');
+    background-size: cover;
+    color: #000;
+    font-family: sans-serif;
+    font-size:15px;
+   }
+   #wrapper{
+    background:#32b2ff;
+    opacity:0.7;
+    width: 1100px;
+    margin: 20px auto;
+   }
+   #wrapper header{
+    background:#2481ba;
+    padding: 20px;
+   }
+   #wrapper header hgroup{
+    float: left;
+    color:yellow;
+   }
+   #wrapper header nav{
+    float: right;
+    margin-top: 50px;
+   }
+   #wrapper header nav ul{
     padding: 0;
     margin: 0;
-
-}
-
-#wrapper header nav ul li{
+   }
+   #wrapper header nav ul li{
     float: left;
     list-style: none;
-}
-
-#wrapper header nav ul li a{
+   }
+   #wrapper header nav ul li a{
     padding: 15px;
-    color: #fff;
+    color: yellow;
     text-decoration: none;
-
-}
-
-.clear{
+   }
+   .clear{
     clear: both;
-
-}
-
-footer{
-    backgroud: #232323;
-    pandding: 20px;
-
-}
-
-footer a{
-    color: #fff;
+   }
+   footer{
+    background:#2481ba;
+    padding: 20px;
+   }
+   footer a{
+    color:yellow;
     text-decoration: none;
-
-}
-
-section{
-    pandding: 20px;
-}
-
+   }
+   section{
+    color :rgb(0, 0, 0);
+    font-family:'Times New Roman';
+    padding: 20px;
+   }
