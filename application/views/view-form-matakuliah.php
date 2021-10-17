@@ -2,7 +2,7 @@
 <head>
      <title>Form Input Matakuliah</title>
 </head>
-<body bgcolor="pink">
+<body >
 
     <center>
         <form action="<?= base_url('matakuliah/cetak'); ?>"
